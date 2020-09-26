@@ -13,39 +13,38 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.header {
-	height: 40%;
-    position: relative;
-    max-width: auto;
-    max-height: 135px;
-   /* padding: 1px;
-    margin: 4px;*/
-    display: block;
+
+/*---------------------------------------*/
+               /*Header*/
+/*---------------------------------------*/
+
+
+/*---------------------------------------*/
+               /*total followers*/
+/*---------------------------------------*/
+
+.my-container {
+  border: 1px solid blue;
 }
 
-.total-followers {
-	height: 265px;
-	position: absolute;
-
+.my-col {
+  border: 1px dotted green;
 }
 
-.container {
-	position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-center;
-  align-items: center;
+.my-row {
+  border: 1px solid red;
+  height: --;
 }
 
+.box {
+  position: relative;
+  text-align: center;
+  margin: 2%;
 
-
-.col {
-  border: 15px solid grey;
-  padding: 1px;
-  margin: 2px;
+  height: 200px;
+  width: auto;
   border-radius: 2%;
-  display: inline;
-  
-  color: white;
-  background-color: hsl(232, 19%, 15%);
+
 }
+
+
