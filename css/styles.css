@@ -6,16 +6,25 @@
   box-sizing: border-box;
 }
 
-
-
 html {
     background-color: #fff;
     color: #555;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(228, 34%, 66%);
+}
 
 /*---------------------------------------*/
                /*Header*/
@@ -31,6 +40,10 @@ html {
   font-family: 'Inter', sans-serif;
 }
 
+.head .my-col:first-child {
+  padding-left: 0px;
+}
+
 .my-col {
   border: 1px dotted green;
 }
@@ -38,32 +51,56 @@ html {
 .my-row {
   border: 1px solid red;
   height: --;
+        }
+
+.total-followers {
+  height: 250px;
 }
 
 .box {
   position: relative;
   text-align: center;
   margin: 2%;
-  height: 200px;
+  padding: 30px;
+  height: 210px;
   width: auto;
   border-radius: 2%;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-h3 {
-  font-weight: 400;
-  font-size: 14px;
-  color: hsl(228, 34%, 66%);
-}
+  background-color: hsl(228, 28%, 20%);
+  color: #fff;
+     }
 
 .head {
   color: #fff;
   background-color: hsl(228, 28%, 20%);
   height: 136px;
+  font-family: 'Inter', sans-serif;
 }
 
+.box-tag {
+  color: hsl(228, 34%, 66%);
+  font-size: 12px;
+}
 
+.box-count {
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+           }
+
+.box-text {
+  position: relative;
+  font-weight: 300;
+  font-size: 10px;
+  color: hsl(228, 34%, 66%);
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+
+  bottom: 30px;
+}
+
+.box-today {
+  position: relative;
+  font-weight:700;
+  font-size: 12px;
+  bottom: 20px;
+}
