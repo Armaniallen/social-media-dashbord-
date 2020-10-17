@@ -30,11 +30,6 @@ h3 {
                /*Header*/
 /*---------------------------------------*/
 
-
-/*---------------------------------------*/
-               /*total followers*/
-/*---------------------------------------*/
-
 .my-container {
   border: 1px solid blue;
   font-family: 'Inter', sans-serif;
@@ -46,28 +41,14 @@ h3 {
 
 .my-col {
   border: 1px dotted green;
+  position: relative;
 }
 
 .my-row {
   border: 1px solid red;
   height: --;
-        }
-
-.total-followers {
-  height: 250px;
-}
-
-.box {
   position: relative;
-  text-align: center;
-  margin: 2%;
-  padding: 30px;
-  height: 210px;
-  width: auto;
-  border-radius: 2%;
-  background-color: hsl(228, 28%, 20%);
-  color: #fff;
-     }
+        }
 
 .head {
   color: #fff;
@@ -76,21 +57,62 @@ h3 {
   font-family: 'Inter', sans-serif;
 }
 
+/*---------------------------------------*/
+               /*total followers*/
+/*---------------------------------------*/
+
+
+.total-followers {
+  height: 250px;
+}
+
+.total-followers .my-row {
+  position: relative;
+  height: 250px;
+  max-width: 566px;
+  
+}
+
+.box:first-child {
+    margin-left: 0;
+  }
+
+
+.box {
+    margin-left: 30px;
+  }
+
+.box:last-child {
+    margin-right: 0;
+  }
+
+.box {
+  position: relative;
+  text-align: center;
+  margin: 2%;
+  padding: 30px;
+  height: 150px;
+  width: 150px;
+  border-radius: 2%;
+  background-color: hsl(228, 28%, 20%);
+  color: #fff;
+     }
+
 .box-tag {
   color: hsl(228, 34%, 66%);
-  font-size: 12px;
+  font-size: 6px;
 }
 
 .box-count {
   color: #fff;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
            }
 
 .box-text {
   position: relative;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 5px;
   color: hsl(228, 34%, 66%);
   letter-spacing: 0.5em;
   text-transform: uppercase;
@@ -101,6 +123,112 @@ h3 {
 .box-today {
   position: relative;
   font-weight:700;
-  font-size: 12px;
+  font-size: 5px;
   bottom: 20px;
 }
+
+
+/*---------------------------------------*/
+               /*overview-total*/
+/*---------------------------------------*/
+
+.overview-total {
+  height: 125px;
+  width: auto;
+  
+}
+
+.overview-total .my-col {
+  border: 1px dotted green;
+
+  position: relative;
+  
+}
+
+.overview-total .my-row {
+  border: 1px solid red;
+  position: relative;
+  height: 50%;
+  max-width: 566px;
+}
+
+.tab {
+  border-radius: 2%;
+  background-color: hsl(228, 28%, 20%);
+  color: #fff;
+
+  position: relative;
+ 
+/*  padding: 1px;
+    margin: 1%;
+
+*/
+  border: 1px dotted green;
+
+  height: 80px;
+  width:--;
+  
+
+     }
+
+
+.overview-total .tab:first-child {
+    margin-left: 0;
+  }
+.overview-total .tab {
+  margin-left: 46px ;
+  padding: 0;
+}
+
+.overview-total .tab:last-child {
+    margin-right: 0;
+  }
+
+.top-half {
+  display: block;
+}
+
+.tab-text {
+  position: relative;
+  display: inline-block;
+  font-size: 5px;
+  left: 1%;
+ 
+}
+
+.tab-icon {
+  position: relative;
+  size: 5px;
+  margin-left: 85px;
+  display: inline-block;
+   
+
+ 
+
+
+  
+  
+}
+
+.tab-number {
+  position: relative;
+  margin-left: 85px;
+  font-size: 5px;
+
+  left: 1%;
+  
+
+  
+  
+            }
+
+.tab-daily {
+  position: relative;
+  display: inline-block;
+  font-size: 5px;
+ 
+  margin-left: 85px;
+
+
+}
+  
